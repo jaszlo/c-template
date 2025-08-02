@@ -16,6 +16,6 @@ jobs:
     - name: Build Target
       run: make
     - name: Run Application
-      run: ./main
+      run:  make run
     - name: Exit
       run: exit $?
